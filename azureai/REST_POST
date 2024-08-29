@@ -1,0 +1,7 @@
+curl https://YOUR_ENDPOINT_NAME.openai.azure.com/openai/deployments/YOUR_DEPLOYMENT_NAME/chat/completions?api-version=2023-03-15-preview \
+  -H "Content-Type: application/json" \
+  -H "api-key: YOUR_API_KEY" \
+  -d '{"messages":[{"role": "system", "content": "You are a helpful assistant, teaching people about AI."},
+{"role": "user", "content": "Does Azure OpenAI support multiple languages?"},
+{"role": "assistant", "content": "Yes, Azure OpenAI supports several languages, and can translate between them."},
+{"role": "user", "content": "Do other Azure AI Services support translation too?"}]}'

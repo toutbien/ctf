@@ -1,0 +1,40 @@
+#prompt
+
+
+#response
+
+A specific technique for formatting instructions is to split the instructions at the beginning or end of the prompt, and have the user content contained within --- or ### blocks. These tags allow the model to more clearly differentiate between instructions and content. For example:
+Translate the text into French
+
+---
+What's the weather going to be like today?
+---
+
+#prompt
+
+
+#response
+
+
+
+
+#prompt
+
+
+#response
+
+
+
+
+#prompt
+
+
+#response
+
+
+
+
+#prompt
+
+
+#response
